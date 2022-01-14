@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  background-image: url(file:///C:/Users/Fubo/Desktop/Html/SheCodes-plus-week6-lesson4-challenge/media/our_neighborhood.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 127%;
+  background-attachment: fixed;
+  background-size: 32vw 60vh;
+}
+
+.card{
+    max-width: 60%;
+  display: block;
+  margin: 0 auto;
+   position: relative; 
+top:100px;
+color: rgb(61, 29, 245);
+}
+
+    h1, h2,h3{font-family: 'Corinthia', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Meow Script', cursive;
+font-family: 'Noto Serif', serif; 
+position: relative;
+top: 20px;
+left:20px;
+}
+.feature{font-size: 25px;}
+     p{position: relative;
+        top: 10px;
+          font-size: 50px;
+       }
+        .col-3{ padding: 50px 80px 200px 20px;
+        
+          font-size:38px ;
+        }
+               
+        .col-2{ position: relative;
+        left: 50px;
+    font-size: 23px;}
+.city{padding: 10px 70px;
+margin: 40px;}
+.btn-primary{position: relative;
+left: -20px;
+}
+
+.units{font-size: 25px;}
+.GitHub-link{position: relative;
+bottom: -100px;
+left: -260px;
+text-align: center;}
