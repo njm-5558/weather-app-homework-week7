@@ -18,20 +18,19 @@
 </head>
 <body>
  <div class="container">
-    <div class="card" style="width: 80rem;">
-         <div class="card-body">
+         <div class="weather-app">
            <div class="row">
            <div class="col-9">
          <h1 class="card-title"> Tehran</h1>
          <br>
          <h2 class="card-subtitle mb-2 text-muted" id="date"> </h2>
          <img src=" http://openweathermap.org/img/wn/10d@2x.png" id="icon" alt="" />
-         <span id="description">Rainy</span>
+         <span id="description" class="description">Rainy</span>
        
          </div> 
          <div class="col-3">
-         <span id="temperature">5 </span> 
-         <span class="units"> <a href="#" id="celsius-link" class="active">℃</a>
+         <span id="temperature">5</span> 
+         <span class="units"> <a href="#" id="celsius-link" class="celsius">℃</a>
             |
          <a href="#" id="fahrenheit-link" class="fahrenheit">°F</a>
         </span>
@@ -83,7 +82,7 @@
     </div>
     
     <br>
-    <form id="city-enter">
+    <form id="city-enter" class="form">
     <input type="text" placeholder="Enter a city" class="city" id="city-input" autofocus/>
     <input type="submit" value="Search" class="btn btn-primary"/>
   <button type="button" class="btn btn-primary">Current</button>
@@ -92,7 +91,7 @@
      </div>
  </div> 
  <div class="GitHub-link">
- <a href="https://github.com/njm-5558/weatherConditionApp">Open-source code</a>
+ <a href="https://github.com/njm-5558/weatherConditionApp" >Open-source code</a>
  <span>by Najme Babai</span>
  </div>
  <script src="src/app.js"></script>  
