@@ -44,9 +44,12 @@ margin: 40px;}
 .btn-primary{position: relative;
 left: -20px;
 }
-
+.description{font-size: 25px;}
 .units{font-size: 25px;}
 .GitHub-link{position: relative;
 bottom: -100px;
 left: -260px;
 text-align: center;}
+.active{color: rgb(33, 33,33);
+cursor:default;}
+.active:hover{text-decoration: none;}
