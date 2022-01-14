@@ -25,7 +25,8 @@ position: relative;
 top: 20px;
 left:20px;
 }
-.text-muted{font-size: 22px;}
+.text-muted{font-size: 22px;
+margin-bottom: 10px;}
 .feature{font-size: 25px;}
      p{position: relative;
         top: 10px;
@@ -45,11 +46,17 @@ margin: 40px;}
 left: -20px;
 }
 .description{font-size: 25px;}
-.units{font-size: 25px;}
+.units{font-size: 15px;
+position: relative;
+top: -15px;
+}
 .GitHub-link{position: relative;
 bottom: -100px;
 left: -260px;
 text-align: center;}
 .active{color: rgb(33, 33,33);
-cursor:default;}
+cursor:default;
+text-decoration: none;}
 .active:hover{text-decoration: none;}
+.fahrenheit{text-decoration: none;
+cursor:default;}
